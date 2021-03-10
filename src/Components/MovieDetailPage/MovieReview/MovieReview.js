@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MovieReview = ({data}) => {
+const MovieReview = ({ data }) => {
   return ( 
     <ul>
       {data.map(item => (
